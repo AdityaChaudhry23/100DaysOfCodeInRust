@@ -7,8 +7,8 @@ Today I learn how to use cargo to create new projects, build them for prodcution
 I started with simple Hello World Application.\
 Then I completed Chapter 2 on creating a guessing game and adding colours to print statement.\
 Then at last, I learn and implemented how basic programming fundamentals work in Rust like Variables, Data Types, Conditionals and Functions.\
-Overall Completed 3 Chapters from Rust Lang Book.\
+Overall Completed 3 Chapters from Rust Lang Book.
 
 ### Day 2
 Took a whole day to properly understand how Ownership system works in rust.\
-Implemented strucs in Ruts.\
+Implemented strucs in Ruts.
