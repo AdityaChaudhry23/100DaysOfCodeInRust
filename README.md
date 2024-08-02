@@ -11,4 +11,4 @@ Overall Completed 3 Chapters from Rust Lang Book.
 
 ### Day 2
 Took a whole day to properly understand how Ownership system works in rust.\
-Implemented strucs in Ruts.
+Implemented strucs in Rust.

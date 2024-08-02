@@ -7,15 +7,15 @@ struct User{
 
 #[derive(Debug)]
 struct Rectangle{
-    lenght:i32,
-    widht:i32,
+    length:i32,
+    width:i32,
 }
 
 impl Rectangle {
     fn square(size: i32) -> Self {
         Self {
-            widht: size,
-            lenght: size,
+            width: size,
+            length: size,
         }
     }
 }
@@ -42,8 +42,8 @@ fn main() {
     struct Point(i32,i32,i32);
 
     let rect = Rectangle{
-        lenght:4,
-        widht:10
+        length:4,
+        width:10
     };
     println!("rect is {:#?}",rect);
     let area_of_rect:i32 = area(rect);
@@ -52,7 +52,7 @@ fn main() {
 }
 
 fn area(rectangle:Rectangle)->i32{
-    rectangle.lenght*rectangle.widht
+    rectangle.length*rectangle.width
 }
 
 fn build_user(email:String,username:String) -> User{
